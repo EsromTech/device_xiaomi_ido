@@ -17,10 +17,13 @@
 
 $(call inherit-product, device/xiaomi/ido/full_ido.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Aex stuff.
+$(call inherit-product, vendor/aosp/common.mk)
 
-PRODUCT_NAME := lineage_ido
+PRODUCT_NAME := aosp_ido
 BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Export official support
+EXTENDED_BUILD_TYPE=OFFICIAL
