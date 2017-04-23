@@ -20,6 +20,7 @@ $(call inherit-product, device/xiaomi/ido/full_ido.mk)
 # Inherit some common XOSP stuff.
 $(call inherit-product, vendor/xosp/config/common_full_phone.mk)
 $(call inherit-product, vendor/xosp/config/xosp.mk)
+IS_ARM64 := TRUE
 
 PRODUCT_NAME := xosp_ido
 BOARD_VENDOR := Xiaomi
