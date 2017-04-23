@@ -127,8 +127,8 @@ PRODUCT_PACKAGES += \
     liboverlay
 
 # Doze mode
-PRODUCT_PACKAGES += \
-    Gestures
+#PRODUCT_PACKAGES += \
+#    XiaomiDoze
 
 # Fingerprint
 PRODUCT_PACKAGES += \
