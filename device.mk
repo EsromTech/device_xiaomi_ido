@@ -141,8 +141,8 @@ PRODUCT_PACKAGES += \
     libfmjni
 
 # Gello
-PRODUCT_PACKAGES += \
-    Gello
+#PRODUCT_PACKAGES += \
+ #   Gello
 
 # GPS
 PRODUCT_PACKAGES += \
