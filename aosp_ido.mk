@@ -18,7 +18,7 @@
 $(call inherit-product, device/xiaomi/ido/full_ido.mk)
 
 # Inherit some common Aex stuff.
-#$(call inherit-product, vendor/aosp/common.mk)
+$(call inherit-product, vendor/aosp/common.mk)
 
 PRODUCT_NAME := aosp_ido
 BOARD_VENDOR := Xiaomi
@@ -27,8 +27,3 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Export official support
 EXTENDED_BUILD_TYPE=OFFICIAL
-
-# Build fingerprint
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="Xiaomi/ido/ido:5.1.1/LMY47V/V8.1.3.0.LAIMIDI:user/release-keys" \
-    PRIVATE_BUILD_DESC="ido-user 5.1.1 LMY47V V8.1.3.0.LAIMIDI release-keys"
